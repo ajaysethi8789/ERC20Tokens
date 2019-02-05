@@ -4,7 +4,7 @@ contract Storage {
 function set(uint256 data) {
     storedData = data;
   }
-function get() constant returns (uint256) {
+function get() view returns (uint256) {
     return storedData;
   }
 }
