@@ -68,6 +68,7 @@ router.get('/getPrice', function (req, res, next) {
 
 router.get('/getAPI', function (req, res, next) {
       console.log("USER-->Get API By Ajay");
+      res.send("get API Called");
   });
 
 
